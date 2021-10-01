@@ -12,3 +12,4 @@ rate = rate of smoothing. min = 0, max = 1
 tail = in order to reduce gibbs phenomenon, a tail with arbitrary length can be added to both sides of the curve
 
 
+![Example1](https://user-images.githubusercontent.com/72737338/135656066-1e44f301-1e8f-46d5-b946-659267cccc47.png)
