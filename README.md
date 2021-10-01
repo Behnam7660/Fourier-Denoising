@@ -1,4 +1,4 @@
-# Fourier-Denoising
+# Fourier-Denoising_1D
 Denoising 1D arrays with FFT algorithm
 
 This function can smooth n number of same-length curves simultaneously with FFT algorithm.
