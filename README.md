@@ -1,7 +1,7 @@
 # Fourier-Denoising
 Denoising 1D arrays with FFT algorithm
 
-This function can smooth n number of same-length curves simultaneously with FFT algorithm. 
+/This function can smooth n number of same-length curves simultaneously with FFT algorithm. 
 Input data must be in 3Dshape of : (number of curves, length of curves, 1)
 data = data to be smoothed
 rate = rate of smoothing. min = 0, max = 1
