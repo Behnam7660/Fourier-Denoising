@@ -13,3 +13,6 @@ tail = in order to reduce gibbs phenomenon, a tail with arbitrary length can be 
 
 
 ![Example1](https://user-images.githubusercontent.com/72737338/135656066-1e44f301-1e8f-46d5-b946-659267cccc47.png)
+
+![Example2](https://user-images.githubusercontent.com/72737338/135656119-46f7f7b3-0ea6-44c8-9b16-85ba716f4fb9.png)
+
