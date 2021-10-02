@@ -25,7 +25,7 @@ def fourier_smooth(data, rate, tail):
     smoothed = np.real(smoothed)
     return smoothed
 
-smoothed = np.reshape(fourier_smooth(data_reshaped, 0, 0.5), (100))
+smoothed = np.reshape(fourier_smooth(data_reshaped, 0.5, 0), (100))
 
 plt.plot(data)
 plt.plot(smoothed)
