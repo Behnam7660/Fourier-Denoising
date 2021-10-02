@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 data = np.random.random(100)
 data_reshaped = np.reshape(data, (1,100,1))
 
-def fourier_smooth(data, tail, rate):
+def fourier_smooth(data, rate, tail):
     if np.size(np.shape(data)) < 3:
         data = np.reshape(data, (1, np.shape(data)[0], 1))
     tailzero = np.zeros((np.shape(data)[0],tail,1))
