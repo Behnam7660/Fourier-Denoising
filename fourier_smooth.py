@@ -6,13 +6,6 @@ data = np.random.random(100)
 data_reshaped = np.reshape(data, (1,100,1))
 
 def fourier_smooth(data, tail, rate):
-    #\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-    # This function can smooth n number of same-length curves simultaneously with FFT algorithm. 
-    # Input data must be in 3Dshape of : (number of curves, length of curves, 1)
-    # data = data to be smoothed
-    # rate = rate of smoothing. min = 0, max = 1
-    # tail = in order to reduce gibbs phenomenon, a tail with arbitrary length can be added to both sides of the curve
-    #///////////////////////////////
     if np.size(np.shape(data)) < 3:
         data = np.reshape(data, (1, np.shape(data)[0], 1))
     tailzero = np.zeros((np.shape(data)[0],tail,1))
